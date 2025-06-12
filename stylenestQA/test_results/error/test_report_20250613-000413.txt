@@ -1,0 +1,84 @@
+╔═══════════════════════════════════════════════════════════════
+║             StyleNest E-commerce Testing Report               
+╚═══════════════════════════════════════════════════════════════
+
+📅 Test Execution Date: 2025-06-13 00:04:13
+📍 Test Environment: Local Development
+🌐 Base URL: http://localhost:8080
+
+🎯 Test Summary
+--------------
+Final Status: ❌ FAILED
+
+📋 Detailed Step Results:
+----------------------
+❌ Step 1: Open homepage and navigate to products
+   ⏱️ Duration: 0.02s
+   ⚠️ Error: Message: invalid argument
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0xc23783+63299]
+	GetHandleVerifier [0x0xc237c4+63364]
+	(No symbol) [0x0xa50f70]
+	(No symbol) [0x0xa4145e]
+	(No symbol) [0x0xa3fb19]
+	(No symbol) [0x0xa4026b]
+	(No symbol) [0x0xa54b3e]
+	(No symbol) [0x0xae0657]
+	(No symbol) [0x0xabe57c]
+	(No symbol) [0x0xadfa4a]
+	(No symbol) [0x0xabe376]
+	(No symbol) [0x0xa8d6e0]
+	(No symbol) [0x0xa8e544]
+	GetHandleVerifier [0x0xe7e073+2531379]
+	GetHandleVerifier [0x0xe79372+2511666]
+	GetHandleVerifier [0x0xc49efa+220858]
+	GetHandleVerifier [0x0xc3a548+156936]
+	GetHandleVerifier [0x0xc40c7d+183357]
+	GetHandleVerifier [0x0xc2b6e8+95912]
+	GetHandleVerifier [0x0xc2b890+96336]
+	GetHandleVerifier [0x0xc1666a+9770]
+	BaseThreadInitThunk [0x0x766f5d49+25]
+	RtlInitializeExceptionChain [0x0x77b8cf0b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77b8ce91+561]
+
+
+📊 Test Statistics
+----------------
+Total Steps Executed: 1
+Steps Passed: 0
+Steps Failed: 1
+Total Duration: 0.02 seconds
+
+❌ Error Details
+--------------
+Message: invalid argument
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0xc23783+63299]
+	GetHandleVerifier [0x0xc237c4+63364]
+	(No symbol) [0x0xa50f70]
+	(No symbol) [0x0xa4145e]
+	(No symbol) [0x0xa3fb19]
+	(No symbol) [0x0xa4026b]
+	(No symbol) [0x0xa54b3e]
+	(No symbol) [0x0xae0657]
+	(No symbol) [0x0xabe57c]
+	(No symbol) [0x0xadfa4a]
+	(No symbol) [0x0xabe376]
+	(No symbol) [0x0xa8d6e0]
+	(No symbol) [0x0xa8e544]
+	GetHandleVerifier [0x0xe7e073+2531379]
+	GetHandleVerifier [0x0xe79372+2511666]
+	GetHandleVerifier [0x0xc49efa+220858]
+	GetHandleVerifier [0x0xc3a548+156936]
+	GetHandleVerifier [0x0xc40c7d+183357]
+	GetHandleVerifier [0x0xc2b6e8+95912]
+	GetHandleVerifier [0x0xc2b890+96336]
+	GetHandleVerifier [0x0xc1666a+9770]
+	BaseThreadInitThunk [0x0x766f5d49+25]
+	RtlInitializeExceptionChain [0x0x77b8cf0b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77b8ce91+561]
+
+
+═══════════════ End of Test Report ═══════════════
