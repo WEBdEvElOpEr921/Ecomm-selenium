@@ -1,0 +1,48 @@
+╔═══════════════════════════════════════════════════════════════
+║             StyleNest E-commerce Testing Report               
+╚═══════════════════════════════════════════════════════════════
+
+📅 Test Execution Date: 2025-06-13 00:12:32
+📍 Test Environment: Local Development
+🌐 Base URL: http://localhost:8080
+
+🎯 Test Summary
+--------------
+Final Status: ❌ FAILED
+
+📋 Detailed Step Results:
+----------------------
+✅ Step 1: Open homepage and navigate to products
+   ⏱️ Duration: 5.44s
+
+✅ Step 3: Navigate to cart
+   ⏱️ Duration: 0.95s
+
+✅ Step 4: Proceed to checkout
+   ⏱️ Duration: 0.98s
+
+✅ Step 5: Fill checkout form
+   ⏱️ Duration: 0.91s
+
+✅ Step 6: Select payment method
+   ⏱️ Duration: 0.62s
+
+✅ Step 7: Place order
+   ⏱️ Duration: 0.90s
+
+❌ Step 8: Verify order success
+   ⏱️ Duration: 0.88s
+   ⚠️ Error: list index out of range
+
+📊 Test Statistics
+----------------
+Total Steps Executed: 7
+Steps Passed: 6
+Steps Failed: 1
+Total Duration: 10.68 seconds
+
+❌ Error Details
+--------------
+list index out of range
+
+═══════════════ End of Test Report ═══════════════
